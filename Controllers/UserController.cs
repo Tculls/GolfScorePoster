@@ -8,9 +8,9 @@ namespace GolfScorePoster.Controllers;
 
 public class UserController : Controller
 {
-    private ORMContext _context;
+    private GolfContext _context;
 
-    public UserController(ORMContext context)
+    public UserController(GolfContext context)
     {
         _context = context;
     }

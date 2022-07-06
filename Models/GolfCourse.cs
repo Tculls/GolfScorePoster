@@ -33,5 +33,9 @@ public class GolfCourse
     [Display(Name = "Course Slope")]
 
     public int CourseSlope {get; set; }
+
+    public User? Player {get; set;}
+
+    public GolfScore? PlayerScore {get; set; }
 }
 

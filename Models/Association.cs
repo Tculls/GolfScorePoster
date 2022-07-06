@@ -10,4 +10,12 @@ public class Association
     public int CourseId {get; set;}
 
     public int UserId {get; set; }
+
+    public int ScoreId {get; set; }
+
+    public GolfCourse? Course {get; set;}
+
+    public User? Player {get; set; }
+
+    public GolfScore? Score {get; set; }
 }
