@@ -9,6 +9,5 @@ public class ORMContext : DbContext
 
     public DbSet<GolfScore> Scores {get; set; }
     public DbSet<User> Users {get; set; }
-
-    public DbSet<Association> Associations {get; set; }
+    
 }

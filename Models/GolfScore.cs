@@ -8,12 +8,6 @@ public class GolfScore
     [Key]
 
     public int ScoreId {get; set; }
-    
-    [Required(ErrorMessage ="Please Input Course Name")]
-    [MinLength(2,ErrorMessage = "Please add a course name")]
-    [Display(Name = "Course Name")]
-
-    public string CourseName {get; set; }
 
     [Required(ErrorMessage = "Please input date")]
     [PastDate(ErrorMessage = "You are not from the future")]
@@ -21,17 +15,11 @@ public class GolfScore
 
     public DateTime DatePlayed {get; set; }
 
-    [Required(ErrorMessage = "Please input Rating")]
-    [Range(55, 155, ErrorMessage = "Input a Rating between 55 and 155")]
-    [Display(Name = "Course Rating")]
 
-    public int CourseRating {get; set; }
-
-    [Required(ErrorMessage = "Please input Slope")]
-    [Range(55, 155, ErrorMessage = "Input a Slope between 55 and 155")]
-    [Display(Name = "Course Slope")]
-
-    public int CourseSlope {get; set; }
+    [Required(ErrorMessage = "Please select tees played")]
+    [MinLength(1, ErrorMessage ="Please select tees played")]
+    
+    public string TeesPlayed {get; set; }
 
     [Required(ErrorMessage = "Please input score")]
     [Range(27, 150, ErrorMessage = "Please input a score between 27 to 150")]
@@ -44,6 +32,10 @@ public class GolfScore
     [Display(Name = "Number of Holes")]
 
     public int NineOrEighteen {get; set; }
+
+
+    public int User {get; set; }
+    public User? Player {get; set; }
 
 
 

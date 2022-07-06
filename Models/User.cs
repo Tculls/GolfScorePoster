@@ -8,14 +8,20 @@ public class User
     public int UserId {get; set;}
 
     [Required(ErrorMessage ="First Name Required")]
-    [MinLength(3, ErrorMessage ="Please add a First Name of atleast 3 characters")]
+    [MinLength(3, ErrorMessage ="Please add a First Name of at least 3 characters")]
     [Display(Name = "First Name")]
     public string FirstName {get; set; }
 
     [Required(ErrorMessage ="Last Name Required")]
-    [MinLength(3, ErrorMessage ="Please add a Last Name of atleast 3 characters")]
+    [MinLength(3, ErrorMessage ="Please add a Last Name of at least 3 characters")]
     [Display(Name = "Last Name")]
     public string LastName {get; set; }
+
+    [Required(ErrorMessage = "Username is Required")]
+    [MinLength(3, ErrorMessage = "Please add a Username of at least 3 characters")]
+    [Display(Name = "Username")]
+
+    public string Username{get; set; }
 
     [Required(ErrorMessage = "is required.")]
     [EmailAddress]
@@ -35,7 +41,6 @@ public class User
     public DateTime UpdatedAt {get; set; } = DateTime.Now;
 
     List<GolfScore> Scores {get; set; } = new List<GolfScore>();
-
 
     public List<Association> Associations {get; set; } = new List<Association>();
 }
