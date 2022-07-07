@@ -1,0 +1,39 @@
+@model GolfScore
+
+<h1> Post Your Round!</h1>
+
+<div>
+    <form asp-controller="Course" asp-action="Create" method="post">
+        <div>
+        <label asp-for="DatePlayed"></label>
+        <span asp-validation-for="DatePlayed"></span>
+        <input asp-for="DatePlayed"/>
+        </div>
+        <div>
+        <label asp-for="TeesPlayed"></label>
+        <span asp-validation-for="TeesPlayed"></span>
+        <select asp-for="TeesPlayed">
+            <option value= "">Please Select Tees</option>
+            <option value= "Forward">Forward</option>
+            <option value= "Middle">Middle</option>
+            <option value= "Back">Back</option>
+            <option value= "Championship">Championship</option>
+            </select>
+        </div>
+        <div>
+        <label asp-for="RoundScore"></label>
+        <span asp-validation-for="RoundScore"></span>
+        <input asp-for="RoundScore"/>
+        </div>
+        <div>
+        <label asp-for="NineOrEighteen"></label>
+        <span asp-validation-for="NineOrEighteen"></span>
+        <select asp-for="NineOrEighteen">
+            <option value= "">Please Select 9 or 18</option>
+            <option value= "9">Forward</option>
+            <option value= "18">Middle</option>
+            </select>
+        </div>
+        <input type="submit" value="Create">
+    </form>
+</div>

@@ -28,13 +28,13 @@ public class GolfScore
     public int RoundScore {get; set; }
 
     [Required(ErrorMessage = "Please indicate if it was 9 or 18 holes")]
-    [Range(1,20, ErrorMessage ="Please choose 9 or 18")]
+    [MinLength(1, ErrorMessage = "Please select 9 or 18")]
     [Display(Name = "Number of Holes")]
 
     public int NineOrEighteen {get; set; }
 
 
-    public int User {get; set; }
+    public int UserId {get; set; }
     public User? Player {get; set; }
 
 

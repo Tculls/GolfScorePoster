@@ -1,0 +1,24 @@
+@model LoginUser
+<div>
+<h1>Welcome to Your Score Storer!</h1>
+<h6>New Here? <a href="/register">Register</a> to start Logging Scores!</h6>
+</div>
+
+
+<h3>Login</h3>
+<div>
+<form asp-controller="User" asp-action="Login" method="POST">
+    <div>
+        <label asp-for="LoginEmail"></label>
+        <span asp-validation-for="LoginEmail"></span>
+        <input asp-for="LoginEmail"/>
+    </div>
+    <div>
+        <label asp-for="LoginPassword"></label>
+        <span asp-validation-for="LoginPassword"></span>
+        <input asp-for="LoginPassword"/>
+    </div>
+
+    <input type="Submit" value="Log in!">
+</form>
+</div>

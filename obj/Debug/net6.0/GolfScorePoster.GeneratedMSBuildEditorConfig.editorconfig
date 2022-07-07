@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\tanne\OneDrive\Desktop\CodingDojoFolder\BootcampClass\C#\GolfScorePoster
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/Course/AddCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEFkZENvdXJzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -23,12 +27,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/Score/AddScore.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NvcmVcQWRkU2NvcmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/Score/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NvcmVcRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/User/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/_ViewImports.cshtml]

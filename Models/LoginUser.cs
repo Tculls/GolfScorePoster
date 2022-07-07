@@ -7,10 +7,12 @@ public class LoginUser
 {
     [Required(ErrorMessage = "is required.")]
     [EmailAddress]
+    [Display(Name = "Email")]
     public string LoginEmail {get ; set; }
 
     [Required(ErrorMessage = "is required")]
-    [MinLength(8, ErrorMessage = "must be correct password")]
+    [MinLength(8, ErrorMessage = "Invalid Email & Password Combination")]
     [DataType(DataType.Password)]
+    [Display(Name = "Password")]
     public string LoginPassword { get; set; }
 }

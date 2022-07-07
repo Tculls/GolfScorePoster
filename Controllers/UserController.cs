@@ -31,26 +31,43 @@ public class UserController : Controller
     }
 
     [HttpGet("")]
-    public IActionResult LoginRegister()
+    public IActionResult Login()
     {
-        return View("LoginRegistration");
+        return View("Login");
     }
 
-        [HttpPost("/register")]
+    [HttpGet("/register")]
+    public IActionResult Register()
+    {
+        return View("Register");
+    }
+
+    [HttpPost("/register")]
     public IActionResult Register(User newUser)
     {
         if (ModelState.IsValid == false)
         {
-            return LoginRegister();
+            return Register();
         }
         if (_context.Users.Any(User => User.Email == newUser.Email))
         {
             ModelState.AddModelError("Email", "is already in use");
-            return LoginRegister();
+            return Register();
+        }
+                if (_context.Users.Any(User => User.Username == newUser.Username))
+        {
+            ModelState.AddModelError("Username", "is already in use");
+            return Register();
         }
 
+        PasswordHasher<User> hashedPW = new PasswordHasher<User>();
+        newUser.Password = hashedPW.HashPassword(newUser, newUser.Password);
 
-        return RedirectToAction("AllHobbies", "Hobby");
+        _context.Users.Add(newUser);
+        _context.SaveChanges();
+
+
+        return RedirectToAction("Dashboard", "Score");
     }
 
     [HttpPost("/login")]
@@ -59,14 +76,14 @@ public class UserController : Controller
         if (ModelState.IsValid == false)
         {
             ViewBag.AuthorizationError = "Your email or password is incorrect";
-            return LoginRegister();
+            return Login();
         }
         User? foundUser = _context.Users.FirstOrDefault(user => user.Email == loginUser.LoginEmail);
 
         if (foundUser == null)
         {
             ModelState.AddModelError("Email", "and/or password do not match");
-            return LoginRegister();
+            return Login();
         }
 
         PasswordHasher<LoginUser> hashedPW = new PasswordHasher<LoginUser>();
@@ -75,10 +92,10 @@ public class UserController : Controller
         if (PassCompare == 0)
         {
             ModelState.AddModelError("Password", "does not match up");
-            return LoginRegister();
+            return Login();
         }
         HttpContext.Session.SetInt32("UserId", foundUser.UserId);
-        return RedirectToAction("AllHobbies", "Hobby");
+        return RedirectToAction("Dashboard", "Score");
     }
 
         [HttpPost("/logout")]

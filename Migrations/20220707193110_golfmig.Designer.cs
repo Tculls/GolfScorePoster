@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GolfScorePoster.Migrations
 {
     [DbContext(typeof(GolfContext))]
-    [Migration("20220706221830_GolfMigration")]
-    partial class GolfMigration
+    [Migration("20220707193110_golfmig")]
+    partial class golfmig
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

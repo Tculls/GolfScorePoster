@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace GolfScorePoster.Migrations
 {
-    public partial class GolfMigration : Migration
+    public partial class golfmig : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

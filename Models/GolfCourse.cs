@@ -26,13 +26,15 @@ public class GolfCourse
     [Range(55, 155, ErrorMessage = "Input a Rating between 55 and 155")]
     [Display(Name = "Course Rating")]
 
-    public int CourseRating {get; set; }
+    public double CourseRating {get; set; }
 
     [Required(ErrorMessage = "Please input Slope")]
     [Range(55, 155, ErrorMessage = "Input a Slope between 55 and 155")]
     [Display(Name = "Course Slope")]
 
-    public int CourseSlope {get; set; }
+    public double CourseSlope {get; set; }
+
+    
 
     public User? Player {get; set;}
 

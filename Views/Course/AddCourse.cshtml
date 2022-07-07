@@ -1,0 +1,29 @@
+@model GolfCourse
+
+<h1> Add a Course to you've played</h1>
+
+<div>
+    <form asp-controller="Course" asp-action="Create" method="post">
+        <div>
+        <label asp-for="CourseName"></label>
+        <span asp-validation-for="CourseName"></span>
+        <input asp-for="CourseName"/>
+        </div>
+        <div>
+        <label asp-for="CoursePar"></label>
+        <span asp-validation-for="CoursePar"></span>
+        <input asp-for="CoursePar"/>
+        </div>
+        <div>
+        <label asp-for="CourseRating"></label>
+        <span asp-validation-for="CourseRating"></span>
+        <input asp-for="CourseRating"/>
+        </div>
+        <div>
+        <label asp-for="CourseSlope"></label>
+        <span asp-validation-for="CourseSlope"></span>
+        <input asp-for="CourseSlope"/>
+        </div>
+        <input type="submit" value="Create">
+    </form>
+</div>
