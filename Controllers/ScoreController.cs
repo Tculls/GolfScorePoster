@@ -8,6 +8,11 @@ public class ScoreController : Controller
 {
     private GolfContext _context;
 
+    public ScoreController(GolfContext context)
+        {
+            _context = context;
+        }
+
 
             private int? uid
     {

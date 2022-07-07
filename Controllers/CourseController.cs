@@ -6,7 +6,11 @@ namespace GolfScorePoster.Controllers;
 
 public class CourseController : Controller
 {
-    private GolfContext _context;
+        private GolfContext _context;
+        public CourseController(GolfContext context)
+        {
+            _context = context;
+        }
 
         private int? uid
     {
