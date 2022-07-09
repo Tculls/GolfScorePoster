@@ -34,10 +34,12 @@ public class GolfCourse
 
     public double CourseSlope {get; set; }
 
-    
+    public int UserId {get; set; }
 
     public User? Player {get; set;}
 
-    public GolfScore? PlayerScore {get; set; }
+    List<GolfScore> Scores {get; set; } = new List<GolfScore>();
+
+    
 }
 

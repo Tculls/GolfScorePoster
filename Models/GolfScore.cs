@@ -34,8 +34,13 @@ public class GolfScore
     public int NineOrEighteen {get; set; }
 
 
-    public int UserId {get; set; }
+    [InverseProperty("Player's Score")]
+    public List<User> UserId {get; set; } = new List<User>();
+
+    public int CourseId {get; set; }
     public User? Player {get; set; }
+
+    public GolfCourse CoursePlayed {get; set; }
 
 
 

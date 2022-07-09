@@ -42,5 +42,7 @@ public class User
 
     List<GolfScore> Scores {get; set; } = new List<GolfScore>();
 
+    List<GolfCourse> Courses {get; set; } =new List<GolfCourse>();
+
     public List<Association> Associations {get; set; } = new List<Association>();
 }
