@@ -8,57 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GolfScorePoster
 build_property.RootNamespace = GolfScorePoster
-build_property.ProjectDir = C:\Users\tanne\OneDrive\Desktop\CodingDojoFolder\BootcampClass\C#\GolfScorePoster\
+build_property.ProjectDir = c:\Users\tanne\OneDrive\Desktop\CodingDojoFolder\BootcampClass\C#\GolfScorePoster\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\tanne\OneDrive\Desktop\CodingDojoFolder\BootcampClass\C#\GolfScorePoster
+build_property.MSBuildProjectDirectory = c:\Users\tanne\OneDrive\Desktop\CodingDojoFolder\BootcampClass\C#\GolfScorePoster
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/Course/AddCourse.cshtml]
+[c:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/Course/AddCourse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEFkZENvdXJzZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/Home/Index.cshtml]
+[c:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/Home/Privacy.cshtml]
+[c:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/Score/AddScore.cshtml]
+[c:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/Score/AddScore.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NvcmVcQWRkU2NvcmUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/Score/Dashboard.cshtml]
+[c:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/Score/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NvcmVcRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/Shared/Error.cshtml]
+[c:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/User/Login.cshtml]
+[c:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/User/Register.cshtml]
+[c:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/User/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/_ViewImports.cshtml]
+[c:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/_ViewStart.cshtml]
+[c:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/Shared/_Layout.cshtml]
+[c:/Users/tanne/OneDrive/Desktop/CodingDojoFolder/BootcampClass/C\#/GolfScorePoster/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-9tv52a2t5n

@@ -38,7 +38,7 @@ public class GolfCourse
 
     public User? Player {get; set;}
 
-    List<GolfScore> Scores {get; set; } = new List<GolfScore>();
+    
 
     
 }
